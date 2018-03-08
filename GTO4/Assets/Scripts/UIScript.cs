@@ -5,16 +5,11 @@ using UnityEngine.UI;
 
 public class UIScript : MonoBehaviour {
 
-    public Text woodtxt;
-    public Text goldtxt;
+    public Text txt;
+    
 
-    public void changeGold(int gold)
+    public void changeValue(int value)
     {
-        goldtxt.text = gold.ToString();
-    }
-
-    public void changeWood(int wood)
-    {
-        woodtxt.text = wood.ToString();
+        txt.text = value.ToString();
     }
 }
